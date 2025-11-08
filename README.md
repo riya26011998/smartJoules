@@ -1,9 +1,19 @@
-This project implements a client–server communication channel using raw TCP sockets in Python.
-The client can send Linux OS commands to the server, which executes them and returns the output in JSON format.
+# Remote Command Executor
 
-Features
+This project implements a **client–server communication system** using **raw TCP sockets** in Python.  
+The client sends Linux OS commands to the server, which executes them and sends JSON responses.
 
-1- Lightweight JSON-over-TCP RPC framework.
-2- Supports single and batch command execution.
-3- Concurrency via ThreadPoolExecutor.
-4- Error codes for predictable client handling.
+---
+
+## Features
+- Execute any Linux OS command remotely  
+- Supports **single and batch** requests  
+- Concurrency using **ThreadPoolExecutor**  
+- JSON response with error codes  
+
+---
+
+## Usage
+
+### Start the Server
+```bash python3 server.py
