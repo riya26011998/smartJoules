@@ -16,4 +16,5 @@ The client sends Linux OS commands to the server, which executes them and sends 
 ## Usage
 
 ### Start the Server
-```bash python3 server.py
+```bash
+python3 server.py
